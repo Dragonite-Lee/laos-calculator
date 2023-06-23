@@ -29,6 +29,6 @@ taxi_km.addEventListener("change", () => {
     if (taxi_km.value < 1) {
         alert("1km이하는 걸으세용!")
     } else {
-        taxi_kip.value = 28000 + roundToTwo(((taxi_km.value - 1) * 1000) / 300 * 2000)
+        taxi_kip.value = 20000 + roundToTwo(((taxi_km.value - 1) * 1000) / 300 * 2000)
     }
 })
