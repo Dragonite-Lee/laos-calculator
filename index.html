@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>라오스 계산기</title>
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="title">
+            <p class="title-light">안녕하세요</p>
+            <p class="title-bold">라오스 계산기</p>
+        </div>
+        <div class="calculator">
+            <div class="calc-unit">
+                <div class="calc-unit-title yellow">
+                    <p class="unit-title-tt">달러($) ↔ 낍(LAK)</p>
+                </div>
+                <div class="calc-unit-content">
+                    <div class="unit-content-up">
+                        <input class="content-up-num yellow-dollar" placeholder="1"/>
+                        <p class="content-up-tt">달러</p>
+                    </div>
+                    <div class="unit-content-down">
+                        <input class="content-down-num yellow-kip" placeholder="18000"></input>
+                        <p class="content-down-tt">낍</p>
+                    </div>
+                </div>
+            </div>
+            <div class="calc-unit">
+                <div class="calc-unit-title blue">
+                    <p class="unit-title-tt">원(￦) ↔ 낍(LAK)</p>
+                </div>
+                <div class="calc-unit-content">
+                    <div class="unit-content-up">
+                        <input class="content-up-num blue-won" placeholder="700"></input>
+                        <p class="content-up-tt">원</p>
+                    </div>
+                    <div class="unit-content-down">
+                        <input class="content-down-num blue-kip" placeholder="10000"></input>
+                        <p class="content-down-tt">낍</p>
+                    </div>
+                </div>
+            </div>
+            <div class="calc-unit taxi">
+                <div class="calc-unit-title">
+                    <p class="unit-title-tt">시내 택시</p>
+                </div>
+                <div class="calc-unit-content">
+                    <div class="unit-content-up">
+                        <input class="content-up-num taxi-km" placeholder="1"></input>
+                        <p class="content-up-tt">km</p>
+                    </div>
+                    <div class="unit-content-down">
+                        <input class="content-down-num taxi-kip" placeholder="28000"></input>
+                        <p class="content-down-tt">낍</p>
+                    </div>
+                </div>
+                <div class="calc-unit-note">
+                    <p class="unit-note-tt">* 1km 이후 300m 당 2000kip 추가</p>
+                </div>
+            </div>
+            <div class="calc-unit">
+                <div class="calc-unit-title">
+                    <p class="unit-title-tt">시내 툭툭(참고용)</p>
+                </div>
+                <div class="calc-unit-content">
+                    <div class="unit-content-up">
+                        <p class="content-up-num">3</p>
+                        <p class="content-up-tt">km</p>
+                    </div>
+                    <div class="unit-content-down">
+                        <p class="content-down-num">10000 ~ 30000</p>
+                        <p class="content-down-tt">낍</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/index.js"></script>
+</html>

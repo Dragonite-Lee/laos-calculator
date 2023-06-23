@@ -1,0 +1,191 @@
+/* 폰트 */
+  @font-face {
+    font-family: 'Pretendard';
+    src: url('./images/Pretendard-Thin.woff') format('woff');
+    font-weight: 100;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Pretendard';
+    src: url('./images/Pretendard-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Pretendard';
+    src: url('./images/Pretendard-Light.woff') format('woff');
+    font-weight: 300;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Pretendard';
+    src: url('./images/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Pretendard';
+    src: url('./images/Pretendard-Medium.woff') format('woff');
+    font-weight: 500;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Pretendard';
+    src: url('./images/Pretendard-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Pretendard';
+    src: url('./images/Pretendard-Bold.woff') format('woff');
+    font-weight: 700;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Pretendard';
+    src: url('./images/Pretendard-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Pretendard';
+    src: url('./images/Pretendard-Black.woff') format('woff');
+    font-weight: 900;
+    font-display: swap;
+  }
+/* 공통 요소 */
+p {
+  margin: 0;
+}
+body {
+  margin: 0;
+}
+/* 본문 */
+.main-container {
+  display: flex;
+  padding: 50px 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+}
+/* 타이틀 */
+.title {
+  display: flex;
+  width: 350px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.title-light {
+  color: #000;
+  font-size: 24px;
+  font-family: 'Pretendard';
+  font-weight: 500;
+  letter-spacing: 0.48px;
+}
+.title-bold {
+  color: #000;
+  font-size: 32px;
+  font-family: 'Pretendard';
+  font-weight: 600;
+  letter-spacing: 0.64px;
+}
+/* 계산기 */
+.calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.calc-unit {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+  .taxi {
+    align-items: flex-end;
+  }
+.calc-unit-title {
+  display: flex;
+  width: 335px;
+  padding: 8px 0px 6px 15px;
+  align-items: flex-start;
+  border-radius: 10px 10px 0px 0px;
+  background: #ECECEC;
+}
+  .yellow {
+    background: #FBF3DB;
+  }
+  .blue {
+    background: #E7F3F8;
+  }
+.unit-title-tt {
+  color: #000;
+  font-size: 16px;
+  font-family: 'Pretendard';
+  font-weight: 500;
+  letter-spacing: 0.32px;
+}
+.calc-unit-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.10);
+}
+.unit-content-up {
+  display: flex;
+  width: 330px;
+  height: 40px;
+  padding: 0px 20px 6px 0px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 10px;
+  border-bottom: 0.5px solid #D8D8D8;
+  background: #FFF;
+}
+.content-up-num {
+  color: #000;
+  font-size: 16px;
+  font-family: 'Pretendard';
+  font-weight: 500;
+  letter-spacing: 0.32px;
+}
+.content-up-tt {
+  color: #666;
+  font-size: 14px;
+  font-family: 'Pretendard';
+  letter-spacing: 0.28px;
+}
+.unit-content-down {
+  display: flex;
+  width: 330px;
+  height: 40px;
+  padding: 0px 20px 6px 0px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 20px;
+  border-radius: 0px 0px 10px 10px;
+  background: #FFF;
+}
+.content-down-num {
+  color: #000;
+  font-size: 16px;
+  font-family: 'Pretendard';
+  font-weight: 500;
+  letter-spacing: 0.32px;
+}
+.content-down-tt {
+  color: #666;
+  font-size: 14px;
+  font-family: 'Pretendard';
+  letter-spacing: 0.28px;
+}
+.calc-unit-note {
+  margin-top: 10px;
+}
+.unit-note-tt {
+  color: #7C7C7C;
+  font-size: 12px;
+  font-family: 'Pretendard';
+  letter-spacing: 0.24px;
+}
